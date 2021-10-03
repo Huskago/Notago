@@ -18,7 +18,7 @@ namespace Notago
         public MainForm()
         {
             InitializeComponent();
-
+            
             var mainTabControl = new MainTabControl();
             var menuStrip = new MainMenuStrip();
             RichTextBox = new CustomRichTextBox();
